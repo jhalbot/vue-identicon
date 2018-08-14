@@ -5,7 +5,7 @@ new Vue({
  },
  computed: {
   createIdenticon: function() {
-    return jdenticon.toSvg(this.textInput, 350);
+    return jdenticon.toSvg(this.textInput, 160);
   }   
  },
  methods: {
